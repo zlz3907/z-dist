@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="X201" name="com.ztools.xml.XMLTest" skipped="0" tests="7" time="0.458" timestamp="2014-03-21T16:22:25">
+  <properties>
+    <property name="env.LC_ADDRESS" value="en_US.UTF-8" />
+    <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+    <property name="project.name" value="z-xml" />
+    <property name="src.core" value="src" />
+    <property name="publish.dir" value="publish" />
+    <property name="cobertura.home" value="/home/kfs/sourceforge/cobertura-1.9.4.1" />
+    <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+    <property name="java.awt.graphicsenv.ivy.instance" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.awt.printerjob.ivy.instance" value="sun.print.PSPrinterJob" />
+    <property name="env.LC_CTYPE" value="zh_CN.UTF-8" />
+    <property name="env.LC_TELEPHONE" value="en_US.UTF-8" />
+    <property name="env.TERM" value="xterm" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="env.OLDPWD" value="/home/zhong/workspace/dist" />
+    <property name="java.vm.info.ivy.instance" value="mixed mode" />
+    <property name="ant.file.common-template" value="/home/lizhi/workspace/2013/z-xml/plugins/build-common.xml" />
+    <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="user.dir" value="/home/lizhi/workspace/2013/z-xml" />
+    <property name="java.vm.version" value="24.45-b08" />
+    <property name="current.year" value="2014" />
+    <property name="ivy.lib.dir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/lib" />
+    <property name="path.separator.ivy.instance" value=":" />
+    <property name="test.integration.dir" value="test/integration" />
+    <property name="env.COMPIZ_BIN_PATH" value="/usr/bin/" />
+    <property name="lib.dir" value="lib" />
+    <property name="env.GEM_HOME" value="/home/zhong/gnu/plugins/taskjuggler" />
+    <property name="junit.printsummary" value="on" />
+    <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+    <property name="java.version.ivy.instance" value="1.7.0_51" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.TEXTDOMAINDIR" value="/usr/share/locale/" />
+    <property name="ivy.shared.default.root" value="/home/zhong/.ivy2/shared" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.UPSTART_INSTANCE" value="" />
+    <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="env.UPSTART_JOB" value="gnome-session" />
+    <property name="env.LC_MEASUREMENT" value="en_US.UTF-8" />
+    <property name="file.separator.ivy.instance" value="/" />
+    <property name="src.extends" value="extends" />
+    <property name="test.unit.dir" value="test/unit" />
+    <property name="pom.project.name" value="z-xml" />
+    <property name="os.name" value="Linux" />
+    <property name="ivy.status" value="integration" />
+    <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="checkstyle.report.html.file" value="dist/z-xml/report/checkstyle/checkstyle_report.html" />
+    <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/" />
+    <property name="test.fileset" value="test/unit" />
+    <property name="plugins.auto.update" value="true" />
+    <property name="ivy.settings.dir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/ivy/settings" />
+    <property name="env.GNOME_KEYRING_CONTROL" value="/run/user/1000/keyring-x3ZQtu" />
+    <property name="env.UBUNTU_MENUPROXY" value="1" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.VTE_VERSION" value="3406" />
+    <property name="env.LC_TIME" value="en_US.UTF-8" />
+    <property name="os.arch" value="amd64" />
+    <property name="user.name" value="zhong" />
+    <property name="ivy.retrieve.pattern.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/lib/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="version" value="0.1.0" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ztools.xml.XMLTest filtertrace=true haltOnError=true haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/lizhi/workspace/2013/z-xml/dist/z-xml/report/junit-xml/TEST-com.ztools.xml.XMLTest.xml crashfile=/home/lizhi/workspace/2013/z-xml/junitvmwatcher6650936656032489006.properties propsfile=/home/lizhi/workspace/2013/z-xml/junit5225154116503614221.properties" />
+    <property name="env.USER" value="zhong" />
+    <property name="ant.file.type.common-template" value="file" />
+    <property name="env.XDG_SESSION_ID" value="c2" />
+    <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="resolve.shared.url" value="http://192.168.7.244:8080/job/Jcm-Project-Template/ws/plugins/ivy/settings/ivysettings-shared.xml" />
+    <property name="env.LOGNAME" value="zhong" />
+    <property name="sun.arch.data.model.ivy.instance" value="64" />
+    <property name="js.rhinounit.home" value="/home/lizhi/workspace/2013/z-xml/plugins/rhinounit" />
+    <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring-x3ZQtu/gpg:0:1" />
+    <property name="ivy.default.conf.dir" value="jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings" />
+    <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+    <property name="test.verify.dir" value="test/verify" />
+    <property name="src.test" value="test" />
+    <property name="user.country" value="US" />
+    <property name="env.GNOME_KEYRING_PID" value="1989" />
+    <property name="env.GTK_MODULES" value="overlay-scrollbar:unity-gtk-module" />
+    <property name="java.vm.specification.version.ivy.instance" value="1.7" />
+    <property name="pom.project.version" value="${version}" />
+    <property name="encoding" value="UTF-8" />
+    <property name="ECLIPSE_HOME" value="d:/eclipse" />
+    <property name="env.LC_MONETARY" value="en_US.UTF-8" />
+    <property name="ivy.default.always.check.exact.revision" value="false" />
+    <property name="env.LC_NAME" value="en_US.UTF-8" />
+    <property name="os.name.ivy.instance" value="Linux" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+    <property name="java.endorsed.dirs.ivy.instance" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+    <property name="user.language.format" value="zh" />
+    <property name="ivy.lib.dir" value="/home/lizhi/workspace/2013/z-xml/lib" />
+    <property name="junit.report.html.dir" value="dist/z-xml/report/junit-html" />
+    <property name="env.GDMSESSION" value="ubuntu" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="target.report.dir" value="dist/z-xml/report" />
+    <property name="js.jshint.options.json" value="/home/lizhi/workspace/2013/z-xml/plugins/jshint/jshint.json" />
+    <property name="js.jshint.report.xml.file" value="dist/z-xml/report/jshint/result.xml" />
+    <property name="ivy.settings.url" value="file:/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings/ivysettings.xml" />
+    <property name="env.SHLVL" value="1" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="user.dir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml" />
+    <property name="ivy.default.settings.dir" value="jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings" />
+    <property name="ivy.settings.file" value="/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings/ivysettings.xml" />
+    <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+    <property name="env.LANGUAGE" value="en_US:en" />
+    <property name="file.separator" value="/" />
+    <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.cache.dir.ivy.instance" value="/home/zhong/.ivy2/cache" />
+    <property name="ivy.conf.file" value="/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings/ivysettings.xml" />
+    <property name="env.LC_NUMERIC" value="en_US.UTF-8" />
+    <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings" />
+    <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0" />
+    <property name="env.XMODIFIERS" value="@im=fcitx" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="junit.report.xml.dir" value="dist/z-xml/report/junit-xml" />
+    <property name="env.QT4_IM_MODULE" value="fcitx" />
+    <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="package.type" value="jar" />
+    <property name="ant.file.phases-template" value="/home/lizhi/workspace/2013/z-xml/plugins/build.xml" />
+    <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="ivy.resolved.file" value="/home/lizhi/workspace/2013/z-xml/ivy.xml" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="DSTAMP" value="2014-03-22" />
+    <property name="ivy.resolved.configurations" value="default" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="basedir" value="/home/lizhi/workspace/2013/z-xml" />
+    <property name="java.vendor.url.ivy.instance" value="http://java.oracle.com/" />
+    <property name="java.ext.dirs.ivy.instance" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="ivy.version" value="2.3.0" />
+    <property name="env.XDG_SEAT" value="seat0" />
+    <property name="env.PATH" value="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/zhong/apache/apache-maven-3.0.5/bin:/home/lizhi/bin:/home/lizhi/programes/node/bin:/home/zhong/gnu/plugins/taskjuggler/bin:" />
+    <property name="path.separator" value=":" />
+    <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="user.language.format.ivy.instance" value="zh" />
+    <property name="ivy.conf.dir" value="/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings" />
+    <property name="TSTAMP" value="00:21:58" />
+    <property name="user.language" value="en" />
+    <property name="ant.file." value="/home/lizhi/workspace/2013/z-xml/plugins/rhinounit/build.xml" />
+    <property name="checkstyle.report.xml.file" value="dist/z-xml/report/checkstyle/checkstyle_report.xml" />
+    <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="ant.project.invoked-targets" value="_run-test" />
+    <property name="awt.toolkit.ivy.instance" value="sun.awt.X11.XToolkit" />
+    <property name="env.SESSIONTYPE" value="gnome-session" />
+    <property name="js.rhinounit.build.xml" value="/home/lizhi/workspace/2013/z-xml/plugins/rhinounit/build.xml" />
+    <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="cache.dir" value="/home/zhong/.ivy2/cache" />
+    <property name="java.class.version" value="51.0" />
+    <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+    <property name="env.PAPERSIZE" value="letter" />
+    <property name="os.version.ivy.instance" value="3.8.0-29-generic" />
+    <property name="sun.desktop.ivy.instance" value="gnome" />
+    <property name="ivy.project.dir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ant.file.type.phases-template" value="file" />
+    <property name="test.classpath" value="classpath" />
+    <property name="ivy.configurations.ivy.instance" value="*" />
+    <property name="ivy.home.ivy.instance" value="/home/zhong/.ivy2" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="js.jslint.home" value="/home/lizhi/workspace/2013/z-xml/plugins/jslint" />
+    <property name="js.jshint.home" value="/home/lizhi/workspace/2013/z-xml/plugins/jshint" />
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="env.DESKTOP_SESSION" value="ubuntu" />
+    <property name="ivy.status.ivy.instance" value="integration" />
+    <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+    <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+    <property name="env.XDG_VTNR" value="7" />
+    <property name="env.COMPIZ_CONFIG_PROFILE" value="ubuntu" />
+    <property name="ivy.basedir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml" />
+    <property name="java.vm.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-2dutKnkAtR" />
+    <property name="ant.file.type." value="file" />
+    <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+    <property name="env.SESSION" value="ubuntu" />
+    <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings" />
+    <property name="ivy.settings.url.ivy.instance" value="file:/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings/ivysettings.xml" />
+    <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring-x3ZQtu/ssh" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="env.DISPLAY" value=":0.0" />
+    <property name="ant.file" value="/home/lizhi/workspace/2013/z-xml/build.xml" />
+    <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+    <property name="user.country.ivy.instance" value="US" />
+    <property name="cache.ivyPattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/ivy.[ext]" />
+    <property name="web.root" value="WebContent" />
+    <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+    <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000" />
+    <property name="sun.cpu.isalist.ivy.instance" value="" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="js.test.integration" value="js-test/integration" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.file.z-xml" value="/home/lizhi/workspace/2013/z-xml/build.xml" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="file.encoding.ivy.instance" value="UTF-8" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+    <property name="ivy.cache.ttl.default" value="10s" />
+    <property name="env.XDG_CURRENT_DESKTOP" value="Unity" />
+    <property name="ivy.settings.file.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings/ivysettings.xml" />
+    <property name="env.JOB" value="dbus" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+    <property name="checkstyle.report.dir" value="dist/z-xml/report/checkstyle" />
+    <property name="env.LC_IDENTIFICATION" value="en_US.UTF-8" />
+    <property name="env.CLUTTER_IM_MODULE" value="xim" />
+    <property name="file.encoding.pkg.ivy.instance" value="sun.io" />
+    <property name="env.XDG_MENU_PREFIX" value="gnome-" />
+    <property name="env.GDM_LANG" value="en_US" />
+    <property name="ivy.local.default.root" value="/home/zhong/.ivy2/local" />
+    <property name="ivy.resolver.default.check.modified" value="false" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="js.test.unit.dir" value="js-test/unit" />
+    <property name="ant.project.name" value="z-xml" />
+    <property name="ivy.local.default.root.ivy.instance" value="/home/zhong/.ivy2/local" />
+    <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.vendor.url.bug.ivy.instance" value="http://bugreport.sun.com/bugreport/" />
+    <property name="ivy.conf.dir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings" />
+    <property name="env.LESSCLOSE" value="/usr/bin/lesspipe %s %s" />
+    <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="env.SSH_AGENT_PID" value="2051" />
+    <property name="env.UPSTART_EVENTS" value="started xsession" />
+    <property name="ivy.default.ivy.user.dir" value="/home/zhong/.ivy2" />
+    <property name="java.runtime.version.ivy.instance" value="1.7.0_51-b00" />
+    <property name="user.home" value="/home/zhong" />
+    <property name="java.vm.version.ivy.instance" value="24.45-b08" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ivy.dep.file" value="ivy.xml" />
+    <property name="env.IM_CONFIG_PHASE" value="1" />
+    <property name="user.timezone.ivy.instance" value="Asia/Shanghai" />
+    <property name="env.XAUTHORITY" value="/home/zhong/.Xauthority" />
+    <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/1992" />
+    <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="ivy.conf.url" value="file:/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings/ivysettings.xml" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="ivy.deps.changed" value="false" />
+    <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="java.version" value="1.7.0_51" />
+    <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+    <property name="plugins.checksum.url" value="http://192.168.7.244:8080/job/Jcm-Project-Template/lastSuccessfulBuild/artifact/dist/jpt-plugins-1.0.tar.gz.MD5" />
+    <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+    <property name="ivy.conf.file.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings/ivysettings.xml" />
+    <property name="env._" value="/usr/bin/ant" />
+    <property name="env.SESSION_MANAGER" value="local/X201:@/tmp/.ICE-unix/2080,unix/X201:/tmp/.ICE-unix/2080" />
+    <property name="js.src.dir" value="js-src" />
+    <property name="sun.java.command.ivy.instance" value="org.apache.tools.ant.launch.Launcher -cp  package" />
+    <property name="basedir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml" />
+    <property name="cache.artifactPattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.conf.url.ivy.instance" value="file:/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings/ivysettings.xml" />
+    <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="test.dir" value="test" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.LESSOPEN" value="| /usr/bin/lesspipe %s" />
+    <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/build/artifacts" />
+    <property name="env.M2_HOME" value="/home/zhong/apache/apache-maven-3.0.5" />
+    <property name="env.TEXTDOMAIN" value="im-config" />
+    <property name="ivy.cache.dir" value="/home/zhong/.ivy2/cache" />
+    <property name="user.country.format.ivy.instance" value="CN" />
+    <property name="user.language.ivy.instance" value="en" />
+    <property name="java.class.path.ivy.instance" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/xercesImpl.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/checkstyle-5.6-all.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/jsch.jar:/usr/share/ant/lib/ant-junit.jar:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar" />
+    <property name="env.PWD" value="/home/zhong/workspace/2013/z-xml" />
+    <property name="env.GTK_IM_MODULE" value="fcitx" />
+    <property name="sun.cpu.endian.ivy.instance" value="little" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ivy.publish.src.artifacts.pattern" value="/home/lizhi/workspace/2013/z-xml/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ivy.retrieve.pattern" value="/home/lizhi/workspace/2013/z-xml/lib/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="ivy.organisation" value="com.ztools" />
+    <property name="user.country.format" value="CN" />
+    <property name="ivy.targets.copied" value="false" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+    <property name="ivy.resolve.default.type.filter" value="*" />
+    <property name="java.specification.version.ivy.instance" value="1.7" />
+    <property name="js.jshint.classpath" value="/home/lizhi/workspace/2013/z-xml/plugins/jshint/ant-jshint-0.3.6-SNAPSHOT-deps.jar" />
+    <property name="src.dir" value="src" />
+    <property name="ivy.basedir" value="/home/lizhi/workspace/2013/z-xml" />
+    <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+    <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+    <property name="env.HOME" value="/home/zhong" />
+    <property name="plugins.download.url" value="http://192.168.7.244:8080/job/Jcm-Project-Template/lastSuccessfulBuild/artifact/dist/jpt-plugins-1.0.tar.gz" />
+    <property name="env.INSTANCE" value="" />
+    <property name="line.separator.ivy.instance" value="&#xa;" />
+    <property name="build.src.dir" value="build/main" />
+    <property name="env.LC_PAPER" value="en_US.UTF-8" />
+    <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="user.home.ivy.instance" value="/home/zhong" />
+    <property name="dist.lib" value="dist/z-xml" />
+    <property name="ivy.deliver.ivy.pattern" value="/home/lizhi/workspace/2013/z-xml/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="cache.artifactPattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="dist.dir" value="dist" />
+    <property name="resolve.shared.settings.file" value="${ivy.default.settings.dir}/ivysettings-shared.xml" />
+    <property name="ivy.shared.default.root.ivy.instance" value="/home/zhong/.ivy2/shared" />
+    <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+    <property name="TODAY" value="March 22 2014" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="checkstyle.report.xsl.file" value="dist/z-xml/report/checkstyle/checkstyle.xls" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/zhong/.ivy2" />
+    <property name="ivy.project.dir" value="/home/lizhi/workspace/2013/z-xml" />
+    <property name="cache.dir.ivy.instance" value="/home/zhong/.ivy2/cache" />
+    <property name="ivy.revision" value="1.0" />
+    <property name="java.runtime.version" value="1.7.0_51-b00" />
+    <property name="ivy.home" value="/home/zhong/.ivy2" />
+    <property name="sun.boot.class.path.ivy.instance" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+    <property name="java.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="env.COLORTERM" value="gnome-terminal" />
+    <property name="ivy.distrib.dir.ivy.instance" value="/home/lizhi/workspace/2013/z-xml/distrib" />
+    <property name="user.timezone" value="" />
+    <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+    <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="cobertura.build.xml" value="Warning: No found cobertura home!" />
+    <property name="java.class.path" value="/home/lizhi/workspace/2013/z-xml/lib/hamcrest-all-1.3-javadoc.jar:/home/lizhi/workspace/2013/z-xml/lib/hamcrest-all-1.3-sources.jar:/home/lizhi/workspace/2013/z-xml/lib/hamcrest-all-1.3.jar:/home/lizhi/workspace/2013/z-xml/lib/junit-4.8.2-javadoc.jar:/home/lizhi/workspace/2013/z-xml/lib/junit-4.8.2-sources.jar:/home/lizhi/workspace/2013/z-xml/lib/junit-4.8.2.jar:/home/lizhi/workspace/2013/z-xml/build/main:/home/lizhi/workspace/2013/z-xml/build/test:/usr/share/java/ant-launcher-1.9.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="ivy.settings.dir" value="/home/lizhi/workspace/2013/z-xml/plugins/ivy/settings" />
+    <property name="os.version" value="3.8.0-29-generic" />
+    <property name="env.LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.class.version.ivy.instance" value="51.0" />
+    <property name="env.WINDOWID" value="67108872" />
+    <property name="ivy.module" value="z-xml" />
+    <property name="os.arch.ivy.instance" value="amd64" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="source" value="1.6" />
+    <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="ivy.nb.targets.copied" value="0" />
+    <property name="js.jshint.report.dir" value="dist/z-xml/report/jshint" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="ivy.log.modules.in.use" value="false" />
+    <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
+    <property name="ant.file.type" value="file" />
+    <property name="ivy.build.artifacts.dir" value="/home/lizhi/workspace/2013/z-xml/build/artifacts" />
+    <property name="target" value="1.6" />
+    <property name="ivy.checksums" value="sha1,md5" />
+    <property name="sun.os.patch.level.ivy.instance" value="unknown" />
+    <property name="build.test.dir" value="build/test" />
+    <property name="build.dir" value="build" />
+    <property name="ivy.configurations" value="*" />
+    <property name="ivy.distrib.dir" value="/home/lizhi/workspace/2013/z-xml/distrib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 14 2013" />
+    <property name="ant.file.type.z-xml" value="file" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="cache.ivyPattern" value="[organisation]/[module]/[revision]/[type]s/ivy.[ext]" />
+    <property name="js.test.dir" value="js-test" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="user.name.ivy.instance" value="zhong" />
+  </properties>
+  <testcase classname="com.ztools.xml.XMLTest" name="testObjectToXmlString" time="0.052" />
+  <testcase classname="com.ztools.xml.XMLTest" name="testNullValueInMap" time="0.008" />
+  <testcase classname="com.ztools.xml.XMLTest" name="testReadAndWriteXmlFile" time="0.06" />
+  <testcase classname="com.ztools.xml.XMLTest" name="testMapInMap" time="0.021" />
+  <testcase classname="com.ztools.xml.XMLTest" name="testReadXmlFile" time="0.012" />
+  <testcase classname="com.ztools.xml.XMLTest" name="testRWExtendsObject" time="0.188" />
+  <testcase classname="com.ztools.xml.XMLTest" name="testArrayInArray" time="0.005" />
+  <system-out><![CDATA[testObjectToXmlString is 	true
+testNullValueInMap is 	true
+testReadAndWriteXmlFile is 	true
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<XMLBean class="java.util.HashMap" >
+<HashMap hashcode="-954072530" class="java.util.HashMap" ><entry isMapEntry="true"><key class="java.lang.String"><![CDATA[integer]]]]><![CDATA[></key><value class="java.lang.Integer">129</value></entry><entry isMapEntry="true"><key class="java.lang.String"><![CDATA[one]]]]><![CDATA[></key><value class="java.lang.Integer">1</value></entry><entry isMapEntry="true"><key class="java.lang.String"><![CDATA[string]]]]><![CDATA[></key><value class="java.lang.String"><![CDATA[string]]]]><![CDATA[></value></entry><entry isMapEntry="true"><key class="java.lang.String"><![CDATA[subMap]]]]><![CDATA[></key><value hashcode="-1733225228" class="java.util.HashMap" ><entry isMapEntry="true"><key class="java.lang.String"><![CDATA[key1]]]]><![CDATA[></key><value class="java.lang.String"><![CDATA[abcabcabc
+abc]]]]><![CDATA[></value></entry><entry isMapEntry="true"><key class="java.lang.String"><![CDATA[tsub]]]]><![CDATA[></key><value hashcode="2091491488" class="java.util.HashMap" ><entry isMapEntry="true"><key class="java.lang.String"><![CDATA[keytwo]]]]><![CDATA[></key></entry><entry isMapEntry="true"><value class="java.lang.String"><![CDATA[three]]]]><![CDATA[></value></entry><entry isMapEntry="true"><key class="java.lang.String"><![CDATA[keyone]]]]><![CDATA[></key><value class="java.lang.String"><![CDATA[hello]]]]><![CDATA[></value></entry></value>
+</entry></value>
+</entry></HashMap>
+</XMLBean>
+testMapInMap is 	true
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<XMLBean class="[Ljava.lang.Object;" >
+<ObjectArr hashcode="1293126184" class="[Ljava.lang.Object;" length="1"><element hashcode="1037266848" class="[[Ljava.lang.String;" length="2"><element hashcode="71667990" class="[Ljava.lang.String;" length="2"><element class="java.lang.String"><![CDATA[a]]]]><![CDATA[></element><element class="java.lang.String"><![CDATA[b]]]]><![CDATA[></element></element><element hashcode="1933065610" class="[Ljava.lang.String;" length="2"><element class="java.lang.String"><![CDATA[c]]]]><![CDATA[></element><element class="java.lang.String"><![CDATA[d]]]]><![CDATA[></element></element></element></ObjectArr></XMLBean>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<XMLBean class="[Ljava.lang.String;" >
+<StringArr hashcode="92734721" class="[Ljava.lang.String;" length="2"><element class="java.lang.String"><![CDATA[hello]]]]><![CDATA[></element><element class="java.lang.String"><![CDATA[world]]]]><![CDATA[></element></StringArr></XMLBean>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
